@@ -1,6 +1,6 @@
 // script.js (Versión para Múltiples Proyectos y CRUD Completo)
 
-const API_BASE_URL = 'https://gestor-de-proyectos-2.onrender.com';
+const API_BASE_URL = 'https://gestor-de-proyectos-2.onrender.com/api';
 let proyectoActivoId = null; // Almacenará el ID del proyecto actualmente seleccionado
 
 // ===============================================
