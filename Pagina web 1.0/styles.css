@@ -1,0 +1,38 @@
+/* Estilo base para todas las etiquetas */
+.etiqueta {
+  padding: 4px 8px; /* Espacio interno para que se vea como un botón */
+  border-radius: 4px; /* Bordes redondeados */
+  font-weight: bold;
+  color: white; /* Letra blanca para mejor contraste */
+  text-align: center;
+  display: inline-block; /* Para que el fondo solo cubra el texto */
+}
+
+/* Colores para los estados */
+.estado-concluido {
+  background-color: #28a745; /* Verde para completado/OK */
+}
+
+.estado-en-proceso {
+  background-color: #ffc107; /* Amarillo/Naranja para en curso/Advertencia */
+  color: #343a40; /* Letra oscura para el fondo claro */
+}
+
+.estado-no-atendido {
+  background-color: #dc3545; /* Rojo para pendiente/crítico */
+}
+
+/* Estilo básico de la tabla */
+#tabla-avance {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
